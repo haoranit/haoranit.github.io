@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部*/
+.web_top{
+	line-height:100%;
+	height:38px;
+	background-color:#eeeeec;
+	background-image: url(../images/index_top_bg.png);
+	background-repeat: repeat-x;
+}
+.top{
+	line-height:100%;
+	height:38px;
+	background-color:#eeeeec;
+	background-image: url(../images/index_top_bg.png);
+	background-repeat: repeat-x;
+}
+.top_left{ 
+    float:left; 
+	margin:10px 0px 0px 0px;
+}
+.top_left span{ 
+    margin:0px 10px 0px 0px;
+}
+
+.top_right{
+	float:right;
+}
+.top_right dl{float: left; margin:10px 0px 0px 0px;}
+.top_right dl.img{ float:left; margin:5px 2px 3px 0px; }
+.top_right dl.top_rightl a{ margin:2px 5px 0px 5px; }
+
+.maintop{ line-height:100%; height:68px; padding:20px 0px 25px 0px;background-color: #F8F7F5; }
+.headwraper{MARGIN: 0px auto;width:970px;}
+
+.logbox{ float:left; padding:5px 20px 0px 0px;}
+.areabox{ float:left; padding:20px 20px 0px 0px;line-height:140%;}
+.areabox dl{ color:#5AB2E4; font-size:16px;}
+.areabox dl.cityname{ width:80px; height:23px; overflow:hidden;}
+.areabox p{color:#5AB2E4; font-size:12px; cursor:pointer;}
+
+.weathernav{ float:left; width:200px; padding:10px 0px 0px 10px; display:inline;}
+.weathernav dl.weathernavi{ float:left; width:60px; display:inline; margin:0px 5px 0px 0px; }
+.weathernav dl.weathernavt{ float:left; width:130px; display:inline; margin:0px 0px 0px 0px; }
+.weathernav dl.weathernavt p.weathernavtt{ font-size:22px; font-weight:bold; margin:8px 0px 10px 0px;}
+.weathernav dl.weathernavt p.weathernavtc{ font-size:14px; color:#999;}
+
+.search{
+	float:right;
+	width:410px;
+	margin-left:80px;
+	padding:0px;
+	font-family: "微软雅黑";
+}
+.searchbox{
+	width:410px;
+	padding:0px;
+	height:40px;
+	border: 2px solid #F90;
+	margin: 10px 0px 0px 0px;
+	background-color: #FFF;
+	font-family: "微软雅黑";
+}
+
+.searchinput01{
+	float:left;
+	background-image:url("../images/search_bg2.png");
+	background-repeat: no-repeat;
+	display:inline;
+	background-color:#fff;
+	width:280px;
+	border:0px;
+	color:#AAA19A;
+	font-size:16px;
+	font-family: "微软雅黑";
+	margin: 5px 0px 0px 10px;
+	padding: 5px 0px 5px 30px;
+}
+.searchinput02{
+	float:right;
+	width:80px !important;
+	width:80px;
+	height:40px;
+	color:#FFF;
+	font-size:18px;
+	background-color: #F90;
+	font-family: "微软雅黑";
+	border: 0px;
+}
+.hotsearch{ text-align:right;}
+.hotsearch a{ margin:0px 5px;}
+.nav_bg{
+	background-color:#ff8420;
+	height:41px;
+	line-height:41px;
+}
+div.nav_now{ float:left; height:41px; margin-left:0px; background-color:#F07613; }
+div.nav_now a {
+	float:left;display:block;width:80px;
+	text-align:center;
+	padding:0px 10px 0px 10px;
+	color:#ffffff;
+	font-size:16px;
+}
+div.nav{ float:left; height:41px; margin-left:0px; }
+div.nav a{
+	display:block; width:80px;
+	text-align:center;
+	padding:0px 10px 0px 10px;
+	color:#ffffff;
+	font-size:16px;
+}
+.nav_stone{ float:right; width:290px; height:41px; }
+.new_nav{ position:relative; z-index:1; top:-50px; left:50px;}
+.menu li { float:left; height:41px; margin-left:0px; }
+ li.nav_now{ float:left; height:41px; margin-left:0px; background-color:#F07613; }
+.menu li a {display:block; width:80px;
+	text-align:center;
+	padding:0px 10px 0px 10px;
+	color:#ffffff;
+	font-size:16px; }
+.li_3 {
+	position: relative;
+	z-index: 100;
+}
+.li_3 a.noclick {
+}
+.li_3_content {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	line-height: 40px;
+	z-index: 99;
+	display: none;
+	height: 188px;
+    *top: 18px; 		
+	width: 102px;
+}
+.li_3_content a:hover {
+	color: #FFF !important;
+}
+.li_3_content dt {
+	height: 20px;
+*height: 19px;
+}
+.li_3_content dd {
+	padding: 0 8px;
+	background-image: url(../images/menu_n.png);
+	background-repeat: repeat;
+}
+.li_3_content dd a {
+	text-align: center;
+	padding: 0;
+	border-right: none;
+	color: #FFF;
+	font-weight: normal;
+	width: auto;
+	border-bottom: 1px solid #F8F7F5;
+}
+.li_3_content dd.lastItem a { border-bottom: none; }
+
+/*底部*/
+.footer {
+	background-image: url(../images/footerbj.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 30px;
+	border-top:solid 1px #CCC;
+	text-align: center;
+	background-color: #FFF;
+	margin-top: 80px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-bottom: 50px;
+}
+.footer .nav{
+	padding-bottom:10px;}
+.footer  span{
+	padding:0px 15px;
+	}
+

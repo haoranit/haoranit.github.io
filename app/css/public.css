@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: left;
+	font-family:"微软雅黑" , arial;
+	margin: 0px;
+	font-size:12px;
+	color:#333;
+	background-color: #f8f7f5;
+	background-repeat: repeat;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:14px;
+    font-family:Microsoft YaHei;
+}
+
+li,dl{
+	list-style-type:none;
+}
+textarea{resize:none;}
+
+a:link {
+	color: #333; 
+    text-decoration:none;
+}
+a:visited {
+	color: #333;
+	text-decoration:none;
+}
+a:hover {
+	color: #09F;
+	text-decoration:none;
+}
+a:active {
+	color: #FF0000;
+}
+.clear{
+	clear: both;
+}
+.main{
+	width:970px;
+	margin: 0px auto;
+}
+.all_tit{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #333;
+	line-height: 40px;
+	float: left;
+	padding-left: 15px;
+}
+.red{
+	color:#F30;
+	font-weight: normal;
+}
+.line1,.line2,.line3{
+	height: 2px;
+	background-image: url(../images/linebj.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+}
+.line1{
+   background-color: #FF8420;
+}
+.line2{
+	background-color: #09F;
+}
+.line3{
+   background-color: #9bde50;
+}
+.mainleft {
+	float:left;
+	width:725px;
+}
+.mainright {
+	float:right;
+	width:235px;
+}
+
+/*右边悬浮板块*/
+*{ padding:0px; margin:0px;}
+*html{background-image:url(about:blank);background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
+
+/*解决IE6下不兼容 position:fixed 的问题*/
+#code,#code_hover,#gotop,#offer{
+	width:60px;
+	height:44px;
+	position:fixed;
+	right:5px;
+	cursor:pointer;
+	_position:absolute;
+	_bottom:auto;
+
+_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	background-image: url(../images/erweima.png);
+	background-repeat: no-repeat;	
+}
+#code{
+	background-position:-18px -206px;
+	bottom:235px; _margin-bottom:235px;
+}
+#code_hover{ background-position:-83px -206px; bottom:235px; _margin-bottom:235px;}
+#offer{background-position:-83px -255px; bottom:185px; _margin-bottom:180px;}
+#gotop{ background-position:-82px -300px; bottom:140px; _margin-bottom:140px;} 
+#code_img{
+	width:120px;
+	height:180px;
+	position:fixed;
+	right:2px;
+	bottom:280px;
+	cursor:pointer;
+	display:none;
+	_position:absolute;
+	_bottom:auto;
+    _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); 								
+	_margin-bottom:280px;
+	background-image: url(../images/erweima.png);
+	background-repeat: no-repeat;
+	background-position: -28px -22px;
+}
+
+.clear{clear:both;overflow:hidden;font-size:0px;line-height:0px;height:0px;}
+.clearfix{line-height:0px;height:0px;clear:both;}
+
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+#mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; visibility: hidden; filter: ALPHA(opacity=30); position: absolute; z-index: 9; opacity: 0.3; background-color: rgb(0, 0, 0);
+}

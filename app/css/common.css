@@ -1,0 +1,121 @@
+﻿/* ----------------------------网站公共样式部分------------------------------------------  */
+body {
+	text-align: left;
+	font-family:"宋体" , arial;
+	margin:auto;
+	padding:0;
+	font-size:12px;
+	color:#333;
+	background-color: #FFF;
+	background-repeat: repeat;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;font-size:14px; font-family:Microsoft YaHei;}
+
+li,dl{list-style-type:none;}
+
+h1{font-size:14px; font-weight:normal; }
+h2,h3,h4,h5,h6,{ font-size:16px;font-weight:bold;margin:0; padding:0;}
+
+.c{clear:both;overflow:hidden;font-size:0px;line-height:0px;height:0px;}
+/* 公共样式中的默认超链接 */
+a:link {color: #333; text-decoration:none;}
+a:visited {color: #333;text-decoration:none;}
+a:hover {color: #FF0000; text-decoration:none;}
+a:active {color: #FF0000;}
+
+.left{ float:left;}
+.right{ float:right;}
+.center { MARGIN: 0px auto; WIDTH: 100%}
+
+.line {
+	TEXT-DECORATION: none
+}
+.red {
+	COLOR: #f00
+}
+.gray {
+	COLOR: #696969
+}
+.gray1 {
+	COLOR: #a9a9a9
+}
+.hui {
+	COLOR: #999
+}
+
+.mleft_5{ 
+	margin-left:5px;
+}
+.mtop_5{ 
+	margin-top:5px;
+}
+.mleft_8{ 
+	margin-left:8px;
+}
+.mtop_8{ 
+	margin-top:8px;
+}
+.mleft_10{ 
+	margin-left:10px;
+}
+.mtop_10{ 
+	margin-top:10px;
+}
+.ptop_8{ 
+	padding-top:8px;
+}
+.ptop_10{ 
+	padding-top:10px;
+}
+.border_1_eee{
+	border:1px solid #eee;}
+.cssButton { padding-top: 7px !important; padding-top:7px; padding-bottom:5px; padding-left:10px; padding-right:10px; height:31px !important; height:31px; background-color:#F60; border: 1px solid #e0e0e0;	font-size: 14px;margin-left:5px !important; margin-left:5px; overflow: hidden; color:#FFFFFF; font-weight:bold;
+}
+.cssText{	padding-top: 5px;	padding-bottom:3px;	width:140px;	height:15px !important;	height:15px;	background-color:#e0e0e0;	border: 1px solid #CCCCCC;	font-size: 12px;	overflow: hidden;	color:#F60;	font-weight:bold;
+}
+.cssText_in{	padding-top: 5px;	padding-bottom:3px;	width:140px;	height:15px !important;	height:15px;	background-color:#FC9;	border: 1px solid #F60;	font-size: 12px;	overflow: hidden;	color:#000;	font-weight:bold;}
+
+/* 公共样式中文字样式  */
+.i{font-style:normal;}
+.bk a img{border:1px solid #ffffff;display:block;}
+.bk a:hover img{border:1px solid #ff0000;display:block;}
+.clear{clear:both;overflow:hidden;font-size:0px;line-height:0px;height:0px;}
+.clearfix{line-height:0px;height:0px;clear:both;}
+
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+#mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; visibility: hidden; filter: ALPHA(opacity=30); position: absolute; z-index: 9; opacity: 0.3; background-color: rgb(0, 0, 0);
+}
+/* 底部  */
+.bottom_box{ margin:0px auto;padding:26px 0px 50px 0px; background-color: #FFF; border-top:1px solid #E4E3E1; }
+.bottom_box ul{
+	text-align:center; line-height:180%;color:#666;
+}
+.bottom_box ul li.nav a{
+	font-size:14px;
+	padding-left:10px;
+	color:#666;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666;
+	padding-right:10px;
+}
+.bottom_box ul li.nav a.lastone{
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-right-color: #666;
+	padding-right:10px;
+}
+.bottom_box ul li.nav p{
+	font-size:14px;}
+.bottom_box ul li.icon{ margin:20px 0px 0px 10px;}
+.bottom_box ul li.icon a{margin:0px 5px 0px 5px;}
+.statistics_box{display: none;}.daanlu {
+	font-size: 30px;
+}
+.daanlu1 {
+	font-size: 50px;
+}

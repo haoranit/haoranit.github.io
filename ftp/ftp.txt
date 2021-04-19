@@ -1,0 +1,3 @@
+FTP用户名：xmyp/xmyp-ftp（需要两个同时填写）
+密码：b02Mz0NVWuqIWDoybxKnkkhrY0zC2fDY
+ftp://box.u-file.cn
